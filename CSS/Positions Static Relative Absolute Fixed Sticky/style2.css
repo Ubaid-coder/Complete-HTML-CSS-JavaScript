@@ -1,0 +1,15 @@
+header{
+    position: sticky;
+    background-color: blue;
+    top: 0px;
+    
+}
+
+p{
+    height: 500rem;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}

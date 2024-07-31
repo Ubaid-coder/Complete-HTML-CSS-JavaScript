@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+section{
+    background-color: purple;
+    /* padding: 25px; */
+    /* box-sizing: border-box; */
+    width: 50vw;
+    
+   
+}
+
+.box{
+    background-color: greenyellow;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+ 

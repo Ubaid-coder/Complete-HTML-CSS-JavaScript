@@ -1,0 +1,41 @@
+li{
+    font-weight: 900;
+    font-size: 34px;
+    list-style: none;
+}
+
+.html{
+    color: red;
+}
+
+.css{
+    color: blue;
+}
+
+.js{
+    color: #ff9800;
+}
+
+.react{
+    color: hsl(191, 65%, 62%);
+}
+
+.tailwind{
+    color:hsl(198, 93%, 61%);
+}
+
+[class]{
+    background-color: bisque;
+}
+
+[ubaid = "pro"]{
+    background-color: rgb(237, 153, 50);
+}
+
+ul p{
+    background-color: lightblue;
+}
+
+h1:hover{
+    background-color: #91703d;
+}

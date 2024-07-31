@@ -1,0 +1,32 @@
+.square{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border: 40px solid blue;
+}
+
+/* @media  (min-width:  700px){
+    .square{
+        background-color: hotpink;
+    }
+} */
+
+/* @media  (min-height:  500px){
+    .square{
+        background-color: hotpink;
+    }
+} */
+
+@media print and (min-width:  500px){
+    .square{
+        background-color: hotpink;
+    }
+}
+
+/* @media  (width >= 500px){
+    .square{
+        background-color: hotpink;
+    }
+} */
+
+

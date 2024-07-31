@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c7ad60045.js" crossorigin="anonymous"></script>
+
+    <title>Cofee-Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Coffe<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn">
+                    <i class="fa-solid fa-x"></i>
+                </span>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <span id="menu-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="content">
+            <h1>Start your day with fresh cofee</h1>
+            <p>
+                Cofee is a popular and beloved beverage enjoyed by
+                people around the world. Awaken your senses with a steaming cup of liquid motivation.
+            </p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+
+    <script>
+        const header = document.querySelector('header');
+        const menu = document.querySelector('#menu-btn');
+        const closemenu = document.querySelector('#close-menu-btn');
+
+
+        menu.addEventListener('click', () => {
+            header.classList.add('show-mobile-menu')
+          
+        })
+
+        closemenu.addEventListener('click', () => {
+            header.classList.remove('show-mobile-menu')
+            
+        })
+    </script>
+</body>
+
+</html>

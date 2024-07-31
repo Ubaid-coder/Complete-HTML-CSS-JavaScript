@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+
+}
+
+
+span{
+   background-color: cadetblue;
+   border: 10px solid pink;
+   margin: 20px;
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+}

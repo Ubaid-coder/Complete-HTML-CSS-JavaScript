@@ -1,0 +1,39 @@
+.square{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border: 50px solid  blue;
+    /* print-color-adjust: exact;
+    -webkit-print-color-adjust: exact; */
+}
+
+/* @media print{
+    h1{
+        font-size: 155px;
+    }
+    .square{
+        border: 50px solid red;
+        background-color: hotpink;
+    }
+} */
+/* 
+@media all{
+    h1{
+        font-size: 155px;
+    }
+    .square{
+        border: 50px solid red;
+        background-color: hotpink;
+    }
+} */
+
+@media screen{
+    h1{
+        font-size: 155px;
+    }
+    .square{
+        border: 50px solid red;
+        background-color: hotpink;
+    }
+}
+

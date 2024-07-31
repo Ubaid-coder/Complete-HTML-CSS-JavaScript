@@ -1,0 +1,7 @@
+<p></p>
+
+// This called the tag //
+
+<p> Hi I'am an element </p>
+
+// Now this is an element //

@@ -1,0 +1,15 @@
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 700;
+    /* text-decoration: underline wavy ; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}

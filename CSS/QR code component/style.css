@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(213, 225, 239);
+
+}
+
+.card{
+    height: 651px;
+    width: 413px;
+    box-shadow: rgba(186, 180, 180, 0.667) 0px -1px 20px 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 28px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    padding: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.text h2{
+    color: rgb(40, 56, 84);
+}
+
+.text p{
+    color: rgb(133, 139, 151);
+}
+
+.text{
+    padding-top: 45px;
+    font-size: 19px;
+}

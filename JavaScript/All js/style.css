@@ -1,0 +1,14 @@
+.card{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    color: green;
+    font-size: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+div{
+    display: inline-block;
+}

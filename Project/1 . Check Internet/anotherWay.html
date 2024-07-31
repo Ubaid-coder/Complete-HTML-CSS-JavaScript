@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .connect{
+        background-color: green;
+        color: white;
+        font-size: 33px;
+        text-align: center;
+    }
+    .ofline{
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-size: 33px;
+    }
+</style>
+<body>
+   <div class="container">
+    <h1>Check your Network</h1>
+    <div id="status"></div>
+   </div> 
+
+   <script>
+    let status = document.querySelector('#status');
+
+    if(navigator.onLine){
+        status.innerHTML = `<div class = 'connect'>You are online</div>`
+    }
+    else{
+        status.innerHTML = `<div class = 'ofline'>Offline ho ap</div>`
+    }
+   </script>
+</body>
+</html>

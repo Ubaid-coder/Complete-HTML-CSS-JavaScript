@@ -1,0 +1,13 @@
+.box{
+    background-color: greenyellow;
+    width: 50%;
+    
+}
+
+section{
+    background-color: purple;
+    width: 50vw;
+    font-size: 2rem;
+    padding: 25px;
+    box-sizing: border-box;
+}
