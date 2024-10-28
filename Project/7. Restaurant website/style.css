@@ -45,6 +45,16 @@ nav {
     align-items: center;
 }
 
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .container {
     max-width: 90vw;
     margin: 0 auto;
