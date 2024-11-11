@@ -1,0 +1,272 @@
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section with Light Gradient */
+.hero, .hero-title, .hero-description {
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #d1d1e0, #e4e6f0);
+    padding: 100px 0;
+    color: #333;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background: linear-gradient(135deg, #ff8a65, #ff6f61);
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font: bold;
+    outline: none;
+    margin-top: 15%;
+}
+
+.cta-btn:hover {
+    background: linear-gradient(135deg, #e07030, #dbb63b);
+}
+
+/* Features Section with Light Background */
+.features {
+    background-color: #f3f4f6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Key Features Section with Grid Layout and Gap */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Default: 1 card per row */
+    gap: 30px;
+    /* Added gap between cards */
+    margin-top: 30px;
+}
+
+.feature {
+    background-color: #2e415a;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+/* Pricing Section using Grid for Responsive Layout */
+.pricing {
+    padding: 50px 0;
+    background-color: #f3f4f6;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Default 1 card per row */
+    gap: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e4e6f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Default: 1 card per row */
+    gap: 30px;
+    /* Added gap between testimonial cards */
+    margin-top: 30px;
+}
+
+/* Testimonials Layout for Medium Screens (2 cards per row) */
+@media (min-width: 768px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cards per row */
+        justify-items: center;
+        /* Center the cards horizontally */
+    }
+}
+
+/* Testimonials Layout for Large Screens (3 cards per row) */
+@media (min-width: 1024px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cards per row */
+        justify-items: stretch;
+        /* Stretch the cards across the row */
+    }
+}
+
+.testimonial {
+    background-color: #2e415a;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.customer {
+    font-size: 16px;
+    font-style: italic;
+    color: #ccc;
+}
+
+
+/* Media Query for Medium Screens (2 cards per row) */
+@media (min-width: 768px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cards per row */
+    }
+
+    .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cards per row */
+        justify-items: center;
+        /* Centers cards horizontally */
+    }
+}
+
+/* Media Query for Large Screens (3 cards per row) */
+@media (min-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cards per row */
+    }
+
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cards per row */
+        justify-items: stretch;
+        /* Stretch cards across the row */
+    }
+}
+
+/* Feature and Pricing Cards with #2e415a Background */
+.feature,
+.pricing-card,
+.testimonial {
+    background-color: #2e415a;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover,
+.pricing-card:hover,
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h3,
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e4e6f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials-grid .testimonial p {
+    margin-bottom: 10px;
+}
+
+/* Footer with Light Color */
+.footer {
+    background-color: #d1d1e0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
